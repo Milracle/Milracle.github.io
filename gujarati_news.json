@@ -1,0 +1,42 @@
+[
+     {
+        "group": "ગુજરાતી",
+        "channels": [
+            {
+                "channel": "ABP Asmita",
+                "image": "https://j2apps.s.llnwi.net/pic/7019.ABPAsmita.in/en/1x1/208x208/test_pic1580713588986.jpg",
+                "url": "https://m-c02-j2apps.s.llnwi.net/hls/7019.ABPAsmita.in.m3u8"
+            },
+            {
+                "channel": "GSTV",
+                "image": "http://livetv.appledelegate.com/assets/channels/gstv.jpg",
+                "url": "https://cdnlive.livecast.io/388656798579293628302251.m3u8"
+            },
+            {
+                "channel": "India News Gujarat",
+                "image": "https://j2apps.s.llnwi.net/pic/5730.IndiaNewsGujarat.in/en/1x1/208x208/test_pic1552392553997.jpg",
+                "url": "https://m-c17-j2apps.s.llnwi.net/hls/5730.IndiaNewsGujarat.in.m3u8"
+            },
+            {
+                "channel": "News 18 Gujarati",
+                "image": "http://livetv.appledelegate.com/assets/channels/News18_Gujarati.jpg",
+                "url": "https://news18gujarati-lh.akamaihd.net/i/n18gujarat_1@370955/index_5_av-p.m3u8"
+            },
+            {
+                "channel": "Mantavya News",
+                "image": "https://j2apps.s.llnwi.net/pic/5389.MantavyaNews.in/en/1x1/208x208/test_pic1554722569246.jpg",
+                "url": "https://m-c01-j2apps.s.llnwi.net/hls/5389.MantavyaNews.in.m3u8"
+            },
+            {
+                "channel": "Sandesh News",
+                "image": "http://livetv.appledelegate.com/assets/channels/sandesh.jpg",
+                "url": "http://versewsa.pc.cdn.bitgravity.com/versewsa/live/amlst:sandeshnewslive_,b256,b512,b1024,b1824,.smil/chunklist_b256000.m3u8"
+            },
+            {
+                "channel": "TV9 Gujarati",
+                "image": "https://j2apps.s.llnwi.net/pic/0424.TV9Gujarati.in/en/1x1/208x208/test_pic1535465095020.jpg",
+                "url": "http://vidnetcdn.vidgyor.com/tv9gujarati-origin/live/tv9gujarati-origin/live1/chunks.m3u8"
+            }
+        ]
+    }
+]
