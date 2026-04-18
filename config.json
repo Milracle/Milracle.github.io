@@ -1,120 +1,101 @@
 {
-  "features": {
-    "about": true,
-    "projects": true,
-    "experience": true,
-    "skills": true,
-    "github_projects": true
-  },
-  "site": {
-    "title": "Milan Mendpara",
-    "description": "Developer Portfolio",
-    "seo": {
-      "title": "Milan Mendpara - Developer Portfolio",
-      "description": "Developer Portfolio of Milan Mendpara",
-      "keywords": "developer, portfolio, github",
-      "author": "Milan Mendpara",
-      "og_image": "https://avatars.githubusercontent.com/Milracle",
-      "twitter_card": "summary_large_image",
-      "base_url": "https://Milracle.github.io/portfolio"
-    }
-  },
-  "header": {
-    "greeting": "Milan Mendpara",
-    "tagline": "Developer and Creator."
-  },
+  "name": "Milan Mendpara",
+  "title": "Mobile App Developer & IT Business Owner",
+  "about": "I am a seasoned Mobile App Developer and IT professional with over 10 years of experience building and scaling high-performance iOS and Android applications. As the owner of my IT business in Ahmedabad, I specialize in end-to-end development, from MVP creation to deploying complex enterprise systems like DealerClick DMS and specialized community platforms like SteepleMate. I focus on delivering clean, scalable code and high-end tech aesthetics.",
+  "location": "Ahmedabad, India",
+  "email": "milan.mendpara@gmail.com",
+  "resume_link": "",
   "social_links": [
     {
-      "name": "GitHub",
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/milan-mendpara",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "GitHub",
       "url": "https://github.com/Milracle",
-      "icon": "github",
-      "required": true
+      "icon": "fab fa-github"
+    },
+    {
+      "platform": "StackOverflow",
+      "url": "https://stackoverflow.com/users/1157903/milan-mendpara",
+      "icon": "fab fa-stack-overflow"
     }
   ],
-  "github_username": "Milracle",
-  "about": {
-    "paragraphs": [
-      "Welcome to my portfolio! I'm passionate about creating amazing digital experiences and solving complex problems through code.",
-      "This portfolio showcases my journey, projects, and skills. Feel free to explore and get in touch if you'd like to collaborate!"
-    ]
-  },
-  "projects": {
-    "title": "Featured Projects",
-    "items": [
+  "skills": {
+    "categories": [
       {
-        "name": "Portfolio Website",
-        "date": "April 18, 2026",
-        "description": [
-          "A modern, responsive portfolio website built with vanilla JavaScript",
-          "Features dark/light mode, dynamic content loading, and GitHub integration",
-          "Fully configurable through JSON with automated README generation"
-        ],
-        "picture": "assets/projects/Placeholder.png",
-        "link": {
-          "url": "https://Milracle.github.io/portfolio",
-          "title": "View Live Site"
-        }
+        "name": "Mobile Development",
+        "skills": ["Flutter", "React Native", "iOS (Swift/Obj-C)", "Android (Kotlin/Java)", "Firebase"]
+      },
+      {
+        "name": "Frontend & Design",
+        "skills": ["JavaScript (ES6+)", "React", "HTML5/CSS3", "Affinity Photo (Retouching)"]
+      },
+      {
+        "name": "Backend & Business",
+        "skills": ["PHP", "ASP.NET", "MySQL", "REST APIs", "Project Management"]
       }
     ]
   },
   "experience": {
-    "title": "Professional Experience",
     "jobs": [
       {
-        "company": "Your Company Name",
-        "role": "Your Job Title",
-        "date": "Start Date - Present",
-        "responsibilities": [
-          "Add your key responsibilities and achievements here",
-          "Include specific technologies you worked with",
-          "Mention any notable projects or impact metrics",
-          "Update this section with your actual work experience"
-        ],
-        "logo": "assets/logos/Placeholder_Logo.png",
-        "logo_dark": "assets/logos/Placeholder_Logo.png"
+        "company": "Self-Employed / IT Business Owner",
+        "role": "Lead Mobile App Developer",
+        "duration": "2013 - Present",
+        "description": "Led the development of over 50 mobile applications across various domains including automotive, education, and religious management. Specialized in technical architecture, cross-platform migrations, and real-time streaming."
       }
     ]
   },
-  "skills": {
-    "title": "Skills & Technologies",
-    "categories": [
+  "projects": {
+    "items": [
       {
-        "name": "Programming Languages & Technologies",
-        "items": [
-          "JavaScript",
-          "Python",
-          "Java",
-          "TypeScript"
-        ]
+        "title": "SteepleMate",
+        "description": "A comprehensive mobile platform for church and religious community management, featuring member interaction and giving.",
+        "image": "assets/img/projects/steeplemate.png",
+        "links": {
+          "android": "https://play.google.com/store/search?q=SteepleMate&c=apps",
+          "iphone": "https://apps.apple.com/in/app/steeplemate/id1606233022"
+        }
       },
       {
-        "name": "Tools & Platforms",
-        "items": [
-          "Git",
-          "GitHub",
-          "VS Code",
-          "Docker"
-        ]
+        "title": "NumbersBee",
+        "description": "An interactive educational mobile application designed to improve number sense through live-streaming matches and practice modules.",
+        "image": "assets/img/projects/numbersbee.png",
+        "links": {
+          "android": "https://play.google.com/store/apps/details?id=com.playbees.numbers",
+          "iphone": "https://apps.apple.com/us/app/numbersbee/id1538618263"
+        }
       },
       {
-        "name": "Certifications",
-        "items": [
-          {
-            "name": "Add your certification name here",
-            "url": "https://example.com/your-certification-link"
-          },
-          "You can also add certifications without links"
-        ]
+        "title": "DealerClick DMS",
+        "description": "A robust Dealership Management System for the automotive industry, allowing real-time inventory and lead management.",
+        "image": "assets/img/projects/dealerclick.png",
+        "links": {
+          "android": "https://play.google.com/store/search?q=DealerClick&c=apps",
+          "iphone": "https://apps.apple.com/us/app/dealerclick-dms/id1063294325"
+        }
       }
     ]
   },
-  "github_projects": {
-    "title": "Projects on GitHub"
+  "certifications": [
+    {
+      "name": "Mobile Development Professional",
+      "issuer": "Industry Standard",
+      "year": "2020"
+    }
+  ],
+  "github": {
+    "username": "Milracle",
+    "show_featured_only": true
   },
-  "footer": {
-    "show_social_links": true,
-    "show_built_with": true,
-    "built_with_text": "Built with ❤️ using vanilla JavaScript",
-    "tagline": "Let's connect and build something amazing together!"
+  "feature_flags": {
+    "about": true,
+    "experience": true,
+    "projects": true,
+    "skills": true,
+    "github_projects": true,
+    "contact": true
   }
 }
