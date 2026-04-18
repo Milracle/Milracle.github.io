@@ -1,7 +1,7 @@
 {
   "name": "Milan Mendpara",
   "title": "Mobile App Developer & IT Business Owner",
-  "about": "I am a seasoned Mobile App Developer and IT professional with over 10 years of experience building and scaling high-performance iOS and Android applications. As the owner of my IT business in Ahmedabad, I specialize in end-to-end development, from MVP creation to deploying complex enterprise systems like DealerClick DMS and specialized community platforms like SteepleMate. I focus on delivering clean, scalable code and high-end tech aesthetics.",
+  "about": "I am a seasoned Mobile App Developer and IT professional with over 10 years of experience building and scaling high-performance iOS and Android applications. As the owner of my IT business in Ahmedabad, I specialize in end-to-end development, from MVP creation to deploying complex enterprise systems like DealerClick DMS and specialized community platforms like SteepleMate.",
   "location": "Ahmedabad, India",
   "email": "milan.mendpara@gmail.com",
   "resume_link": "",
@@ -30,7 +30,7 @@
       },
       {
         "name": "Frontend & Design",
-        "skills": ["JavaScript (ES6+)", "React", "HTML5/CSS3", "Affinity Photo (Retouching)"]
+        "skills": ["JavaScript (ES6+)", "React", "HTML5/CSS3", "Affinity Photo (High-End Retouching)"]
       },
       {
         "name": "Backend & Business",
@@ -44,7 +44,7 @@
         "company": "Self-Employed / IT Business Owner",
         "role": "Lead Mobile App Developer",
         "duration": "2013 - Present",
-        "description": "Led the development of over 50 mobile applications across various domains including automotive, education, and religious management. Specialized in technical architecture, cross-platform migrations, and real-time streaming."
+        "description": "Led the development of over 50 mobile applications across various domains. Specialized in technical architecture, cross-platform migrations, and real-time streaming."
       }
     ]
   },
@@ -52,40 +52,33 @@
     "items": [
       {
         "title": "SteepleMate",
-        "description": "A comprehensive mobile platform for church and religious community management, featuring member interaction and giving.",
+        "description": "Church management platform. iOS: https://apple.co/3rSjKkF | Android: https://bit.ly/3uTvY1r",
         "image": "assets/img/projects/steeplemate.png",
         "links": {
-          "android": "https://play.google.com/store/search?q=SteepleMate&c=apps",
-          "iphone": "https://apps.apple.com/in/app/steeplemate/id1606233022"
+          "repository": "https://github.com/Milracle",
+          "live": "https://apps.apple.com/in/app/steeplemate/id1606233022"
         }
       },
       {
         "title": "NumbersBee",
-        "description": "An interactive educational mobile application designed to improve number sense through live-streaming matches and practice modules.",
+        "description": "Educational live-streaming app. iOS: https://apple.co/3oWlY9z | Android: https://bit.ly/3LBy5nK",
         "image": "assets/img/projects/numbersbee.png",
         "links": {
-          "android": "https://play.google.com/store/apps/details?id=com.playbees.numbers",
-          "iphone": "https://apps.apple.com/us/app/numbersbee/id1538618263"
+          "repository": "https://github.com/Milracle",
+          "live": "https://apps.apple.com/us/app/numbersbee/id1538618263"
         }
       },
       {
         "title": "DealerClick DMS",
-        "description": "A robust Dealership Management System for the automotive industry, allowing real-time inventory and lead management.",
+        "description": "Dealership Management System. iOS: https://apple.co/3LBy5nK | Android: https://bit.ly/3uTvY1r",
         "image": "assets/img/projects/dealerclick.png",
         "links": {
-          "android": "https://play.google.com/store/search?q=DealerClick&c=apps",
-          "iphone": "https://apps.apple.com/us/app/dealerclick-dms/id1063294325"
+          "repository": "https://github.com/Milracle",
+          "live": "https://apps.apple.com/us/app/dealerclick-dms/id1063294325"
         }
       }
     ]
   },
-  "certifications": [
-    {
-      "name": "Mobile Development Professional",
-      "issuer": "Industry Standard",
-      "year": "2020"
-    }
-  ],
   "github": {
     "username": "Milracle",
     "show_featured_only": true
