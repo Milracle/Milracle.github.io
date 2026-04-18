@@ -69,7 +69,7 @@
           "iOS: https://apps.apple.com/us/app/numbersbee/id1538618263",
           "Android: https://play.google.com/store/apps/details?id=com.playbees.numbers"
         ],
-        "picture": "assets/projects/numbersbee.png"
+        "picture": "assets/projects/numbersbee.jpg"
       },
       {
         "name": "DealerClick DMS",
@@ -79,7 +79,7 @@
           "iOS: https://apps.apple.com/us/app/dealerclick-dms/id1063294325",
           "Android: https://play.google.com/store/search?q=DealerClick&c=apps"
         ],
-        "picture": "assets/projects/dealerclick.png"
+        "picture": "assets/projects/dealerclick.jpg"
       }
     ]
   },
@@ -96,8 +96,8 @@
           "Overseeing full-cycle development from requirement analysis to App Store and Play Store deployment.",
           "Specializing in high-end photo restoration and technical image refining for UI/UX assets."
         ],
-        "logo": "assets/logos/Business_Logo.png",
-        "logo_dark": "assets/logos/Business_Logo_White.png"
+        "logo": "assets/projects/Banner.jpg",
+        "logo_dark": "assets/projects/Banner.jpg"
       }
     ]
   },
