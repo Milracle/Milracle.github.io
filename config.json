@@ -1,94 +1,147 @@
 {
-  "name": "Milan Mendpara",
-  "title": "Mobile App Developer & IT Business Owner",
-  "about": "I am a seasoned Mobile App Developer and IT professional with over 10 years of experience building and scaling high-performance iOS and Android applications. As the owner of my IT business in Ahmedabad, I specialize in end-to-end development, from MVP creation to deploying complex enterprise systems like DealerClick DMS and specialized community platforms like SteepleMate.",
-  "location": "Ahmedabad, India",
-  "email": "milan.mendpara@gmail.com",
-  "resume_link": "",
+  "features": {
+    "about": true,
+    "projects": true,
+    "experience": true,
+    "skills": true,
+    "github_projects": true
+  },
+  "site": {
+    "title": "Milan Mendpara",
+    "description": "Mobile App Developer Portfolio",
+    "seo": {
+      "title": "Milan Mendpara - Mobile App Developer Portfolio",
+      "description": "Portfolio of Milan Mendpara - IT Business Owner and Mobile App Developer specialized in iOS and Android.",
+      "keywords": "mobile developer, flutter, ios, android, portfolio, ahmedabad, dealerclick, steeplemate",
+      "author": "Milan Mendpara",
+      "og_image": "https://avatars.githubusercontent.com/Milracle",
+      "twitter_card": "summary_large_image",
+      "base_url": "https://milracle.github.io/portfolio/"
+    }
+  },
+  "header": {
+    "greeting": "Milan Mendpara",
+    "tagline": "Mobile App Developer and IT Business Owner."
+  },
   "social_links": [
     {
-      "platform": "LinkedIn",
-      "url": "https://www.linkedin.com/in/milan-mendpara",
-      "icon": "fab fa-linkedin"
-    },
-    {
-      "platform": "GitHub",
+      "name": "GitHub",
       "url": "https://github.com/Milracle",
-      "icon": "fab fa-github"
+      "icon": "github",
+      "required": true
     },
     {
-      "platform": "StackOverflow",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/milan-mendpara/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "StackOverflow",
       "url": "https://stackoverflow.com/users/1157903/milan-mendpara",
-      "icon": "fab fa-stack-overflow"
+      "icon": "stack-overflow"
     }
   ],
-  "skills": {
-    "categories": [
+  "github_username": "Milracle",
+  "about": {
+    "paragraphs": [
+      "I am a seasoned Mobile App Developer and IT professional with over 10 years of experience building and scaling high-performance iOS and Android applications. Based in Ahmedabad, India, I run my own IT business focusing on end-to-end product delivery.",
+      "Over the past decade, I have successfully developed and launched more than 50 mobile applications, ranging from complex Dealership Management Systems to community-driven religious platforms. My focus is on writing clean, scalable code while maintaining a high-end tech aesthetic for every project."
+    ]
+  },
+  "projects": {
+    "title": "Featured Applications",
+    "items": [
       {
-        "name": "Mobile Development",
-        "skills": ["Flutter", "React Native", "iOS (Swift/Obj-C)", "Android (Kotlin/Java)", "Firebase"]
+        "name": "SteepleMate",
+        "date": "2022",
+        "description": [
+          "A comprehensive church and religious community management platform.",
+          "iOS: https://apps.apple.com/in/app/steeplemate/id1606233022",
+          "Android: https://play.google.com/store/search?q=SteepleMate&c=apps"
+        ],
+        "picture": "assets/projects/steeplemate.png"
       },
       {
-        "name": "Frontend & Design",
-        "skills": ["JavaScript (ES6+)", "React", "HTML5/CSS3", "Affinity Photo (High-End Retouching)"]
+        "name": "NumbersBee",
+        "date": "2020",
+        "description": [
+          "Interactive educational app with live-streaming matches and practice modules.",
+          "iOS: https://apps.apple.com/us/app/numbersbee/id1538618263",
+          "Android: https://play.google.com/store/apps/details?id=com.playbees.numbers"
+        ],
+        "picture": "assets/projects/numbersbee.png"
       },
       {
-        "name": "Backend & Business",
-        "skills": ["PHP", "ASP.NET", "MySQL", "REST APIs", "Project Management"]
+        "name": "DealerClick DMS",
+        "date": "2015",
+        "description": [
+          "Enterprise Dealership Management System for automotive inventory and lead tracking.",
+          "iOS: https://apps.apple.com/us/app/dealerclick-dms/id1063294325",
+          "Android: https://play.google.com/store/search?q=DealerClick&c=apps"
+        ],
+        "picture": "assets/projects/dealerclick.png"
       }
     ]
   },
   "experience": {
+    "title": "Professional Experience",
     "jobs": [
       {
-        "company": "Self-Employed / IT Business Owner",
-        "role": "Lead Mobile App Developer",
-        "duration": "2013 - Present",
-        "description": "Led the development of over 50 mobile applications across various domains. Specialized in technical architecture, cross-platform migrations, and real-time streaming."
+        "company": "Self-Employed",
+        "role": "IT Business Owner & Lead Developer",
+        "date": "2013 - Present",
+        "responsibilities": [
+          "Built and managed a portfolio of 50+ mobile applications across diverse industries.",
+          "Leading technical architecture for cross-platform apps using Flutter and React Native.",
+          "Overseeing full-cycle development from requirement analysis to App Store and Play Store deployment.",
+          "Specializing in high-end photo restoration and technical image refining for UI/UX assets."
+        ],
+        "logo": "assets/logos/Business_Logo.png",
+        "logo_dark": "assets/logos/Business_Logo_White.png"
       }
     ]
   },
-  "projects": {
-    "items": [
+  "skills": {
+    "title": "Skills & Technologies",
+    "categories": [
       {
-        "title": "SteepleMate",
-        "description": "Church management platform. iOS: https://apple.co/3rSjKkF | Android: https://bit.ly/3uTvY1r",
-        "image": "assets/img/projects/steeplemate.png",
-        "links": {
-          "repository": "https://github.com/Milracle",
-          "live": "https://apps.apple.com/in/app/steeplemate/id1606233022"
-        }
+        "name": "Technical",
+        "items": [
+          "iOS & Android Native Development",
+          "Flutter and React Native",
+          "JavaScript, PHP, and ASP.NET",
+          "Firebase & MySQL",
+          "Technical Image Refining (Affinity Photo)"
+        ]
       },
       {
-        "title": "NumbersBee",
-        "description": "Educational live-streaming app. iOS: https://apple.co/3oWlY9z | Android: https://bit.ly/3LBy5nK",
-        "image": "assets/img/projects/numbersbee.png",
-        "links": {
-          "repository": "https://github.com/Milracle",
-          "live": "https://apps.apple.com/us/app/numbersbee/id1538618263"
-        }
+        "name": "Business & Strategy",
+        "items": [
+          "Product Management",
+          "IT Business Operations",
+          "Application Architecture",
+          "Portfolio Management",
+          "UI/UX Refinement"
+        ]
       },
       {
-        "title": "DealerClick DMS",
-        "description": "Dealership Management System. iOS: https://apple.co/3LBy5nK | Android: https://bit.ly/3uTvY1r",
-        "image": "assets/img/projects/dealerclick.png",
-        "links": {
-          "repository": "https://github.com/Milracle",
-          "live": "https://apps.apple.com/us/app/dealerclick-dms/id1063294325"
-        }
+        "name": "Certifications",
+        "items": [
+          {
+            "name": "Mobile Development Professional",
+            "url": "https://www.linkedin.com/in/milan-mendpara/"
+          }
+        ]
       }
     ]
   },
-  "github": {
-    "username": "Milracle",
-    "show_featured_only": true
+  "github_projects": {
+    "title": "Open Source Activity"
   },
-  "feature_flags": {
-    "about": true,
-    "experience": true,
-    "projects": true,
-    "skills": true,
-    "github_projects": true,
-    "contact": true
+  "footer": {
+    "show_social_links": true,
+    "show_built_with": true,
+    "built_with_text": "Built with ❤️ and 10+ years of Mobile Expertise",
+    "tagline": "Let's connect and turn your next big idea into a high-performance app!"
   }
 }
